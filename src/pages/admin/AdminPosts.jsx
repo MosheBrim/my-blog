@@ -291,7 +291,7 @@ export default function AdminPosts() {
           </div>
           <div className="form-check mb-3">
             <input
-              className="form-check-input"
+              className="form-check-input check-blog"
               type="checkbox"
               id="published"
               checked={newPost.published}
@@ -376,7 +376,7 @@ export default function AdminPosts() {
           </div>
           <div className="form-check mb-3">
             <input
-              className="form-check-input"
+              className="form-check-input check-blog"
               type="checkbox"
               id="published"
               checked={editPost.published}

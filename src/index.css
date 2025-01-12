@@ -166,6 +166,16 @@ body {
   color: #c48c57;
 }
 
+.check-blog{
+  color: #ffffff !important;
+  border: #fadabd solid 2px !important;
+  background-color: #ffffff !important;
+}
+
+.check-blog:checked{
+  background-color: #efb986 !important;
+}
+
 .btn-blog {
   color: #ffffff !important;
   border: #fadabd solid 2px;
